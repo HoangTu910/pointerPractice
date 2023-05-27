@@ -4,7 +4,7 @@ void increment(int *n){
     *n = *n + 1;
 }
 
-void sum(int a[], int size){ //int #a or int a[] it is the same
+void sum(int a[], int size){ //int *a or int a[] it is the same
     int i = 0;
     int sum = 0; 
     for(int i = 0; i < size; i++){
